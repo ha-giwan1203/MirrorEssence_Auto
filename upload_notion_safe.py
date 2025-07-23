@@ -1,27 +1,18 @@
 import sys
-<<<<<<< HEAD
-try:
-=======
 import io
 from dotenv import load_dotenv
+import os
+import requests
+from datetime import datetime
 
 # Load environment variables from .env file
 load_dotenv()
 
 try:
     # Ensure UTF-8 output in Windows console
->>>>>>> 61149de (🎯 Git 초기화 및 복구 완료)
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 except AttributeError:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace', line_buffering=True)
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 61149de (🎯 Git 초기화 및 복구 완료)
-import os
-import requests
-from datetime import datetime
 
 def upload_to_notion(file_path, page_title="GIWANOS 전송 결과"):
     NOTION_TOKEN = os.getenv("NOTION_TOKEN")
@@ -35,62 +26,10 @@ def upload_to_notion(file_path, page_title="GIWANOS 전송 결과"):
         print(f"❌ 업로드할 파일이 존재하지 않습니다: {file_path}")
         return
 
-<<<<<<< HEAD
-    # 파일명과 확장자 추출
-=======
->>>>>>> 61149de (🎯 Git 초기화 및 복구 완료)
     filename = os.path.basename(file_path)
     ext = filename.split(".")[-1].upper()
     created_date = datetime.now().isoformat()
 
-<<<<<<< HEAD
-    # 업로드할 카드 내용 구성
-    payload = {
-        "parent": { "database_id": NOTION_DATABASE_ID },
-        "properties": {
-            "제목": {
-                "title": [
-                    {
-                        "text": {
-                            "content": filename
-                        }
-                    }
-                ]
-            },
-            "날짜": {
-                "date": {
-                    "start": created_date
-                }
-            },
-            "설명": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": page_title
-                        }
-                    }
-                ]
-            },
-            "경로": {
-                "rich_text": [
-                    {
-                        "text": {
-                            "content": file_path
-                        }
-                    }
-                ]
-            },
-            "유형": {
-                "select": {
-                    "name": ext
-                }
-            },
-            "상태": {
-                "status": {
-                    "name": "업로드 완료"
-                }
-            }
-=======
     payload = {
         "parent": { "database_id": NOTION_DATABASE_ID },
         "properties": {
@@ -100,7 +39,6 @@ def upload_to_notion(file_path, page_title="GIWANOS 전송 결과"):
             "경로": { "rich_text": [{ "text": { "content": file_path }}]},
             "유형": { "select": { "name": ext }},
             "상태": { "status": { "name": "업로드 완료" }}
->>>>>>> 61149de (🎯 Git 초기화 및 복구 완료)
         }
     }
 
@@ -117,10 +55,7 @@ def upload_to_notion(file_path, page_title="GIWANOS 전송 결과"):
         print("✅ Notion 카드 생성 완료")
     else:
         print("❌ Notion 업로드 실패:", response.text)
-<<<<<<< HEAD
-=======
 
 # ✅ report_agent가 호출할 수 있게 래퍼 추가
 def send_to_notion(file_path):
     upload_to_notion(file_path)
->>>>>>> 61149de (🎯 Git 초기화 및 복구 완료)
