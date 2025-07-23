@@ -1,0 +1,153 @@
+[
+  {
+    "agent": "reflect",
+    "status": "success",
+    "timestamp": "2025-07-21 19:53:19"
+  },
+  {
+    "agent": "reflect",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:26"
+  },
+  {
+    "agent": "report",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "judge",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "selfcheck",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "status_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "weekly_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "notion_summary_upload",
+    "status": "success",
+    "timestamp": "2025-07-21 20:46:27"
+  },
+  {
+    "agent": "reflect",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:35"
+  },
+  {
+    "agent": "report",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "judge",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "selfcheck",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "status_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "weekly_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "notion_summary_upload",
+    "status": "success",
+    "timestamp": "2025-07-21 20:50:36"
+  },
+  {
+    "agent": "reflect",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:30"
+  },
+  {
+    "agent": "report",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "judge",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "selfcheck",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "status_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "weekly_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "notion_summary_upload",
+    "status": "success",
+    "timestamp": "2025-07-21 20:56:31"
+  },
+  {
+    "agent": "reflect",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:27"
+  },
+  {
+    "agent": "report",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "judge",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "selfcheck",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "status_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "weekly_summary",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "notion_summary_upload",
+    "status": "success",
+    "timestamp": "2025-07-21 21:01:28"
+  },
+  {
+    "agent": "launcher",
+    "status": "failed",
+    "timestamp": "2025-07-21 23:49:19",
+    "error": "cannot import name 'run' from 'giwanos.reporting.send_reflection_md' (C:\\giwanos\\giwanos\\reporting\\send_reflection_md.py)"
+  }
+]

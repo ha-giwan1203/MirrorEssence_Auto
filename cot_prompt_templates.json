@@ -1,0 +1,7 @@
+{
+  "basic": "Given the following memory: {memory}, suggest a helpful reflection.",
+  "cot_reasoning": "Given this memory: {memory}, walk through your reasoning step by step before suggesting a reflection.",
+  "persona_style": "Memory: {memory}\nImagine you're a thoughtful mentor. Reflect step by step, then respond kindly.",
+  "explanatory": "Input: {memory}\nExplain your reasoning and then provide the final insight.",
+  "feedback_aware": "Memory: {memory}\nTake into account previous feedback and elaborate your thinking before giving the output."
+}

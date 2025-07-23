@@ -1,0 +1,6 @@
+{
+  "provider": "chroma",
+  "collection_name": "giwanos_reflection",
+  "persist_path": "vector_cache",
+  "embedding_model": "text-embedding-3-small"
+}

@@ -1,0 +1,17 @@
+# 시스템 캐시 및 임시 파일
+__pycache__/
+*.pyc
+*.log
+*.DS_Store
+.ipynb_checkpoints/
+
+# 대용량 자동 생성 파일
+*.pdf
+*.md
+*.zip
+
+# 릴리즈/캐시 폴더 무시
+vector_cache/
+release_dummy.txt
+.git_broken_backup/
+.github_release_bundle/
